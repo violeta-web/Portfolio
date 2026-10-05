@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madelyn Torff</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- puslapio virsus ir navigacija -->
+    <header class="site-header">
+        <nav class="nav container">
+            <a class="logo" href="#about">Madelyn Torff</a>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Pagrindinis puslapio turinys -->
+    <main>
+        <!-- Prisistatymo sekcija -->
+        <section id="about" class="about">
+            <div class="about__inner container">
+                <div class="about__content">
+                    <p class="about__profession">UI/UX DESIGNER</p>
+                    <h1>Hello, my name <br> is Madelyn Torff</h1>
+                    <p>Short text with details about you, what you do or your profesional career. You can add more
+                        information about page.</p>
+                    <div class="about__buttons">
+                        <a class="button" href="#projects">Projects</a>
+                        <a class="button button--outline" href="https://www.linkedin.com/" target="_blank"
+                            rel="noopener noreferrer">LinkedIn</a>
+                    </div>
+                </div>
+
+                <img class="about__image" src="images/image1.png" alt="Girl with yelow flower">
+            </div>
+        </section>
+        <!-- Projektu sekcija -->
+        <section id="projects" class="projects container">
+            <h2>Projects</h2>
+            <div class="projects__list">
+                <article class="project-card">
+                    <div class="project-card__content">
+                        <h3>Project Name</h3>
+                        <p>I created this personal project to show how to create an interface in Figma using portfolio
+                            as an example</p>
+                        <a class="project-card__link" href="#">View Project</a>
+                    </div>
+                    <img src="images/image2.png" alt="Women practicing yoga">
+                </article>
+                <article class="project-card project-card--reverse">
+                    <div class="project-card__content">
+                        <h3>Project Name</h3>
+                        <p>What was your role, your deliverables, if the projects was personal, freelancing</p>
+                        <a class="project-card__link" href="#">View Project</a>
+                    </div>
+                    <img src="images/image3.png" alt="Calendar or marker on the desk">
+                </article>
+                <article class="project-card">
+                    <div class="project-card__content">
+                        <h3>Project Name</h3>
+                        <p>You can also add in this description the type of the project, if it was for web, mobile,
+                            electron </p>
+                        <a class="project-card__link" href="#">View Project</a>
+                    </div>
+                    <img src="images/image4.png" alt="Website displayed on phone">
+                </article>
+            </div>
+        </section>
+        <!-- Kontaktu sekcija -->
+        <section id="contact" class="contact container">
+            <h2>Contact Us</h2>
+            <form class="contact-form" action="#" method="post">
+                <div>
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" required>
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="6" required></textarea>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+            <div class="social-links">
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="images/square-instagram-brands-solid-full.svg" alt="instagram"></a>
+                <a href="https://www.linkedin.com/" target="_blank rel=noopener noreferre">
+                    <img src="images/linkedin-brands-solid-full.svg" alt="LinkedIn"></a>
+                <a href="mailto:hello@example.com">
+                    <img src="images/envelop.svg" alt="Email"></a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <small>Madelyn Torff &copy; 2021</small>
+        <img src="images/Vector.png" alt="">
+    </footer>
+</body>
+
+</html>
